@@ -1,16 +1,12 @@
+# That work import in GraphGL
 # import * from './generated/prisma.graphql'
-#
-#type User {
-#    id: ID!,
-#    name: String!
-#}
 
+# Public facing API
 type Mutation {
-#    createItem(title: String, description: String, price: Int, image: String, largeImage: String): Item!
-    hi: String
+    createItem(title: String, description: String, price: Int, image: String, largeImage: String): Item!
 }
 
+# How we can get it for Users
 type Query {
-#    items: [Item]!
-    hi: String
+    items: [Item]!
 }

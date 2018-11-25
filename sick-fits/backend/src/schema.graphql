@@ -4,9 +4,11 @@
 # Public facing API
 type Mutation {
     createItem(title: String, description: String, price: Int, image: String, largeImage: String): Item!
+    updateItem(id: ID!, title: String, description: String, price: Int): Item!
 }
 
 # How we can get it for Users
 type Query {
     items: [Item]!
+    item(where: ItemWhereUniqueInput!): Item
 }

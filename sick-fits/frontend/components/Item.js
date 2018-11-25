@@ -8,7 +8,7 @@ import formatMoney from '../lib/formatMoney'
 
 class Item extends Component {
     static PropTypes = {
-      item: PropTypes.object.isRequired,
+        item: PropTypes.object.isRequired,
     };
 
 
@@ -26,7 +26,7 @@ class Item extends Component {
                 <Title>
                     <Link href={{
                         pathname: '/item',
-                        query: { id: query.id }
+                        query: { id: item.id },
                     }}>
                         <a>{item.title}</a>
                     </Link>

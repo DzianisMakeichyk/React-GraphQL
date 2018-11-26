@@ -4,7 +4,8 @@ import Link from 'next/link';
 import Title from "./styles/Title";
 import ItemStyles from "./styles/ItemStyles";
 import PriceTag from "./styles/PriceTag";
-import formatMoney from '../lib/formatMoney'
+import formatMoney from '../lib/formatMoney';
+import DeleteItem from './DeleteItem';
 
 class Item extends Component {
     static PropTypes = {
@@ -39,14 +40,19 @@ class Item extends Component {
                 <p>{item.description}</p>
                 {/* Buttons */}
                 <div className="buttonList">
+                    {/* Edit */}
                     <Link href={{
                         pathname: "update",
                         query: {id: item.id}
                     }}>
                         <a>Edit</a>
                     </Link>
+                    {/* Add to card */}
                     <button>Add to card</button>
-                    <button>Delete</button>
+                    {/* Delete */}
+                    <DeleteItem id={item.id}>
+                        Delete this item
+                    </DeleteItem>
                 </div>
             </ItemStyles>
         )

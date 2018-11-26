@@ -28,11 +28,11 @@ const CREATE_ITEM_MUTATION = gql`
 
 class CreateItem extends Component {
     state = {
-        title: '',
-        description: '',
-        image: '',
-        largeImage: '',
-        price: 0,
+        // title: '',
+        // description: '',
+        // image: '',
+        // largeImage: '',
+        // price: 0,
     };
 
     handleChange = (e) => {

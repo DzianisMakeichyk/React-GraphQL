@@ -1,6 +1,6 @@
-import React, { Componet } from 'react';
+import React, { Component } from 'react';
 
-class CreateItem extends Componet {
+class CreateItem extends Component {
     render() {
         return (
 

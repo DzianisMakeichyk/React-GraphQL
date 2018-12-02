@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { Query } from 'react-apollo';
-import ggl from 'graphql-tag';
+import gql from 'graphql-tag';
 import styled from 'styled-components';
 import Item from './Item';
 
-
-const ALL_ITEMS_QUERY = ggl`
+const ALL_ITEMS_QUERY = gql`
     query ALL_ITEMS_QUERY {
         items {
             id

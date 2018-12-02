@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168ba64c-5e33-42a0-83a3-5407bb1507a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sick-fits/backend/yarn.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/datamodel.prisma" afterPath="$PROJECT_DIR$/sick-fits/backend/datamodel.prisma" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/package-lock.json" afterPath="$PROJECT_DIR$/sick-fits/backend/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/prisma.yml" afterPath="$PROJECT_DIR$/sick-fits/backend/prisma.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" afterPath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/index.js" afterPath="$PROJECT_DIR$/sick-fits/backend/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/items.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/items.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Mutation.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mutation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="159">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="e#915#1229#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,29 +42,29 @@
       <file leaf-file-name="CreateItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="-160">
               <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <marker date="1543260247190" expanded="true" signature="303:662" ph="mutation...{&#10;        createItem(&#10;            title: $title&#10;            description: $description&#10;            price: $price&#10;            image: $image&#10;            largeImage: $largeImage&#10;        ) {&#10;            id&#10;        }&#10;    }" />
-                <marker date="1543260247190" expanded="true" signature="312:332" ph="CREATE_ITEM_MUTATION...CREATE_ITEM_MUTATION" />
-                <marker date="1543260247190" expanded="true" signature="332:445" ph="(...)" />
-                <marker date="1543260247190" expanded="true" signature="346:352" ph="String...String" />
-                <marker date="1543260247190" expanded="true" signature="372:378" ph="String...String" />
-                <marker date="1543260247190" expanded="true" signature="392:395" ph="Int...Int" />
-                <marker date="1543260247190" expanded="true" signature="409:415" ph="String...String" />
-                <marker date="1543260247190" expanded="true" signature="433:439" ph="String...String" />
-                <marker date="1543260247190" expanded="true" signature="446:662" ph="{...}" />
-                <marker date="1543260247190" expanded="true" signature="456:466" ph="createItem...createItem" />
-                <marker date="1543260247190" expanded="true" signature="456:656" ph="createItem...{&#10;            id&#10;        }" />
-                <marker date="1543260247190" expanded="true" signature="466:629" ph="(...)" />
-                <marker date="1543260247190" expanded="true" signature="480:485" ph="title...title" />
-                <marker date="1543260247190" expanded="true" signature="506:517" ph="description...description" />
-                <marker date="1543260247190" expanded="true" signature="544:549" ph="price...price" />
-                <marker date="1543260247190" expanded="true" signature="570:575" ph="image...image" />
-                <marker date="1543260247190" expanded="true" signature="596:606" ph="largeImage...largeImage" />
-                <marker date="1543260247190" expanded="true" signature="630:656" ph="{...}" />
-                <marker date="1543260247190" expanded="true" signature="644:646" ph="id...id" />
+                <marker date="1543782990732" expanded="true" signature="303:662" ph="mutation...{&#10;        createItem(&#10;            title: $title&#10;            description: $description&#10;            price: $price&#10;            image: $image&#10;            largeImage: $largeImage&#10;        ) {&#10;            id&#10;        }&#10;    }" />
+                <marker date="1543782990732" expanded="true" signature="312:332" ph="CREATE_ITEM_MUTATION...CREATE_ITEM_MUTATION" />
+                <marker date="1543782990732" expanded="true" signature="332:445" ph="(...)" />
+                <marker date="1543782990732" expanded="true" signature="346:352" ph="String...String" />
+                <marker date="1543782990732" expanded="true" signature="372:378" ph="String...String" />
+                <marker date="1543782990732" expanded="true" signature="392:395" ph="Int...Int" />
+                <marker date="1543782990732" expanded="true" signature="409:415" ph="String...String" />
+                <marker date="1543782990732" expanded="true" signature="433:439" ph="String...String" />
+                <marker date="1543782990732" expanded="true" signature="446:662" ph="{...}" />
+                <marker date="1543782990732" expanded="true" signature="456:466" ph="createItem...createItem" />
+                <marker date="1543782990732" expanded="true" signature="456:656" ph="createItem...{&#10;            id&#10;        }" />
+                <marker date="1543782990732" expanded="true" signature="466:629" ph="(...)" />
+                <marker date="1543782990732" expanded="true" signature="480:485" ph="title...title" />
+                <marker date="1543782990732" expanded="true" signature="506:517" ph="description...description" />
+                <marker date="1543782990732" expanded="true" signature="544:549" ph="price...price" />
+                <marker date="1543782990732" expanded="true" signature="570:575" ph="image...image" />
+                <marker date="1543782990732" expanded="true" signature="596:606" ph="largeImage...largeImage" />
+                <marker date="1543782990732" expanded="true" signature="630:656" ph="{...}" />
+                <marker date="1543782990732" expanded="true" signature="644:646" ph="id...id" />
               </folding>
             </state>
           </provider>
@@ -61,7 +73,7 @@
       <file leaf-file-name="UpdateItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/UpdateItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="1590">
               <caret line="112" column="74" lean-forward="false" selection-start-line="112" selection-start-column="74" selection-end-line="112" selection-end-column="74" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -131,7 +143,7 @@
       <file leaf-file-name="SingleItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="255">
               <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -167,11 +179,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.graphql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="schema.graphql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/schema.graphql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -188,15 +200,30 @@
       <find>query</find>
       <find>value</find>
       <find>kind</find>
-      <find>ALL_ITEMS_QUERY</find>
-      <find>www.odmistrza.pl</find>
-      <find>width=&quot;30</find>
+      <find>A</find>
+      <find>AL</find>
+      <find>ALL</find>
+      <find>ALL_</find>
+      <find>ALL_I</find>
+      <find>ALL_IT</find>
+      <find>ALL_ITE</find>
+      <find>ALL_ITEM</find>
+      <find>ALL_ITEMS</find>
+      <find>ALL_ITEMS_</find>
+      <find>ALL_ITEMS_q</find>
+      <find>I</find>
+      <find>Ite</find>
+      <find>Items</find>
+      <find>ItemsL</find>
+      <find>ItemsLi</find>
+      <find>ItemsLis</find>
+      <find>ItemsList</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/sick-fits/backend</dir>
       <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/sick-fits/frontend</dir>
       <dir>$PROJECT_DIR$/sick-fits</dir>
+      <dir>$PROJECT_DIR$/sick-fits/frontend</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -210,31 +237,30 @@
         <option value="$PROJECT_DIR$/sick-fits/frontend/components/Page.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/sick-fits/backend/variables.env" />
         <option value="$PROJECT_DIR$/sick-fits/backend/src/createServer.js" />
-        <option value="$PROJECT_DIR$/sick-fits/backend/src/index.js" />
         <option value="$PROJECT_DIR$/sick-fits/backend/src/db.js" />
-        <option value="$PROJECT_DIR$/sick-fits/backend/datamodel.prisma" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/lib/withData.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/pages/_app.js" />
-        <option value="$PROJECT_DIR$/sick-fits/frontend/pages/items.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" />
-        <option value="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/pages/sell.js" />
-        <option value="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/pages/update.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/components/UpdateItem.js" />
-        <option value="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" />
-        <option value="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/components/Base.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" />
-        <option value="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" />
-        <option value="$PROJECT_DIR$/sick-fits/frontend/pages/Item.js" />
-        <option value="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" />
         <option value="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" />
-        <option value="$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js" />
-        <option value="$USER_HOME$/Desktop/mails/index_AC_465.html" />
-        <option value="$USER_HOME$/Desktop/mails/index_QRT_1278.html" />
+        <option value="$USER_HOME$/Downloads/index_AC_465.html" />
+        <option value="$PROJECT_DIR$/sick-fits/backend/prisma.yml" />
+        <option value="$PROJECT_DIR$/sick-fits/backend/variables.env" />
+        <option value="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" />
+        <option value="$PROJECT_DIR$/sick-fits/frontend/pages/items.js" />
+        <option value="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" />
+        <option value="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" />
+        <option value="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" />
+        <option value="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" />
+        <option value="$PROJECT_DIR$/sick-fits/backend/datamodel.prisma" />
+        <option value="$PROJECT_DIR$/sick-fits/backend/src/index.js" />
+        <option value="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" />
+        <option value="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" />
       </list>
     </option>
   </component>
@@ -256,9 +282,11 @@
     <handled-path value="$PROJECT_DIR$/sick-fits/frontend/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="55" />
+    <option name="y" value="430" />
+    <option name="width" value="1186" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -276,7 +304,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,45 +319,43 @@
             <path>
               <item name="Advanced-React" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced-React" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="finished-application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stepped-solutions" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Advanced-React" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced-React" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="finished-application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stepped-solutions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="25" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Advanced-React" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced-React" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sick-fits" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stepped-solutions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="25" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Advanced-React" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced-React" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sick-fits" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stepped-solutions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="25" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Advanced-React" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced-React" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sick-fits" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Advanced-React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced-React" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sick-fits" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stepped-solutions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="25" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resolvers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,7 +363,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.7.0/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="jsgraphql-schema-editor-notification" value="false" />
     <property name="com.intellij.lang.jsgraphql.ide.injection.JSGraphQLLanguageInjectionUtil.gql" value="apollo" />
   </component>
@@ -363,6 +388,74 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -383,40 +476,49 @@
       <workItem from="1543066564508" duration="12521000" />
       <workItem from="1543157130411" duration="2686000" />
       <workItem from="1543178330015" duration="2766000" />
-      <workItem from="1543259162616" duration="2788000" />
-      <workItem from="1543350230359" duration="7655000" />
+      <workItem from="1543259162616" duration="2401000" />
+      <workItem from="1543478006469" duration="13112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47296000" />
+    <option name="totallyTimeSpent" value="53055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21030043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21316166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="GraphQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18863362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983795" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="GraphQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32066277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25801012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -428,10 +530,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/finished-application/frontend/components/Meta.js">
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Meta.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,6 +580,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sick-fits/frontend/pages/_document.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -505,46 +615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finished-application/backend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finished-application/backend/src/schema.graphql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/prisma.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/variables.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -558,39 +632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/createServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/datamodel.prisma">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/pages/items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -639,14 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sick-fits/frontend/pages/sell.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -658,74 +695,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finished-application/backend/src/resolvers/Mutation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1543260247190" expanded="true" signature="303:662" ph="mutation...{&#10;        createItem(&#10;            title: $title&#10;            description: $description&#10;            price: $price&#10;            image: $image&#10;            largeImage: $largeImage&#10;        ) {&#10;            id&#10;        }&#10;    }" />
-            <marker date="1543260247190" expanded="true" signature="312:332" ph="CREATE_ITEM_MUTATION...CREATE_ITEM_MUTATION" />
-            <marker date="1543260247190" expanded="true" signature="332:445" ph="(...)" />
-            <marker date="1543260247190" expanded="true" signature="346:352" ph="String...String" />
-            <marker date="1543260247190" expanded="true" signature="372:378" ph="String...String" />
-            <marker date="1543260247190" expanded="true" signature="392:395" ph="Int...Int" />
-            <marker date="1543260247190" expanded="true" signature="409:415" ph="String...String" />
-            <marker date="1543260247190" expanded="true" signature="433:439" ph="String...String" />
-            <marker date="1543260247190" expanded="true" signature="446:662" ph="{...}" />
-            <marker date="1543260247190" expanded="true" signature="456:466" ph="createItem...createItem" />
-            <marker date="1543260247190" expanded="true" signature="456:656" ph="createItem...{&#10;            id&#10;        }" />
-            <marker date="1543260247190" expanded="true" signature="466:629" ph="(...)" />
-            <marker date="1543260247190" expanded="true" signature="480:485" ph="title...title" />
-            <marker date="1543260247190" expanded="true" signature="506:517" ph="description...description" />
-            <marker date="1543260247190" expanded="true" signature="544:549" ph="price...price" />
-            <marker date="1543260247190" expanded="true" signature="570:575" ph="image...image" />
-            <marker date="1543260247190" expanded="true" signature="596:606" ph="largeImage...largeImage" />
-            <marker date="1543260247190" expanded="true" signature="630:656" ph="{...}" />
-            <marker date="1543260247190" expanded="true" signature="644:646" ph="id...id" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/schema.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/UpdateItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="1590">
           <caret line="112" column="74" lean-forward="false" selection-start-line="112" selection-start-column="74" selection-end-line="112" selection-end-column="74" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -771,101 +746,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/finished-application/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/index_AC_465.html" />
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/createServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/finished-application/frontend/components/DeleteItem.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/prisma.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <marker date="1540225896309" expanded="true" signature="194:280" ph="mutation...{&#10;    deleteItem(id: $id) {&#10;      id&#10;    }&#10;  }" />
-            <marker date="1540225896309" expanded="true" signature="203:223" ph="DELETE_ITEM_MUTATION...DELETE_ITEM_MUTATION" />
-            <marker date="1540225896309" expanded="true" signature="223:233" ph="(...)" />
-            <marker date="1540225896309" expanded="true" signature="229:231" ph="ID...ID" />
-            <marker date="1540225896309" expanded="true" signature="234:280" ph="{...}" />
-            <marker date="1540225896309" expanded="true" signature="240:250" ph="deleteItem...deleteItem" />
-            <marker date="1540225896309" expanded="true" signature="240:276" ph="deleteItem...{&#10;      id&#10;    }" />
-            <marker date="1540225896309" expanded="true" signature="250:259" ph="(...)" />
-            <marker date="1540225896309" expanded="true" signature="251:253" ph="id...id" />
-            <marker date="1540225896309" expanded="true" signature="260:276" ph="{...}" />
-            <marker date="1540225896309" expanded="true" signature="268:270" ph="id...id" />
-          </folding>
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finished-application/frontend/pages/items.js">
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/variables.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finished-application/frontend/components/Items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1540225896310" expanded="true" signature="286:506" ph="query...{&#10;    items(first: $first, skip: $skip, orderBy: createdAt_DESC) {&#10;      id&#10;      title&#10;      price&#10;      description&#10;      image&#10;      largeImage&#10;    }&#10;  }" />
-            <marker date="1540225896310" expanded="true" signature="292:307" ph="ALL_ITEMS_QUERY...ALL_ITEMS_QUERY" />
-            <marker date="1540225896310" expanded="true" signature="307:349" ph="(...)" />
-            <marker date="1540225896310" expanded="true" signature="315:318" ph="Int...Int" />
-            <marker date="1540225896310" expanded="true" signature="332:335" ph="Int...Int" />
-            <marker date="1540225896310" expanded="true" signature="350:506" ph="{...}" />
-            <marker date="1540225896310" expanded="true" signature="356:361" ph="items...items" />
-            <marker date="1540225896310" expanded="true" signature="356:502" ph="items...{&#10;      id&#10;      title&#10;      price&#10;      description&#10;      image&#10;      largeImage&#10;    }" />
-            <marker date="1540225896310" expanded="true" signature="361:414" ph="(...)" />
-            <marker date="1540225896310" expanded="true" signature="362:367" ph="first...first" />
-            <marker date="1540225896310" expanded="true" signature="377:381" ph="skip...skip" />
-            <marker date="1540225896310" expanded="true" signature="390:397" ph="orderBy...orderBy" />
-            <marker date="1540225896310" expanded="true" signature="415:502" ph="{...}" />
-            <marker date="1540225896310" expanded="true" signature="423:425" ph="id...id" />
-            <marker date="1540225896310" expanded="true" signature="432:437" ph="title...title" />
-            <marker date="1540225896310" expanded="true" signature="444:449" ph="price...price" />
-            <marker date="1540225896310" expanded="true" signature="456:467" ph="description...description" />
-            <marker date="1540225896310" expanded="true" signature="474:479" ph="image...image" />
-            <marker date="1540225896310" expanded="true" signature="486:496" ph="largeImage...largeImage" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <marker date="1543352631971" expanded="true" signature="196:298" ph="mutation...{&#10;        deleteItem(id: $id) {&#10;            id&#10;        }&#10;    }" />
-            <marker date="1543352631971" expanded="true" signature="205:225" ph="DELETE_ITEM_MUTATION...DELETE_ITEM_MUTATION" />
-            <marker date="1543352631971" expanded="true" signature="225:235" ph="(...)" />
-            <marker date="1543352631971" expanded="true" signature="231:233" ph="ID...ID" />
-            <marker date="1543352631971" expanded="true" signature="236:298" ph="{...}" />
-            <marker date="1543352631971" expanded="true" signature="246:256" ph="deleteItem...deleteItem" />
-            <marker date="1543352631971" expanded="true" signature="246:292" ph="deleteItem...{&#10;            id&#10;        }" />
-            <marker date="1543352631971" expanded="true" signature="256:265" ph="(...)" />
-            <marker date="1543352631971" expanded="true" signature="257:259" ph="id...id" />
-            <marker date="1543352631971" expanded="true" signature="266:292" ph="{...}" />
-            <marker date="1543352631971" expanded="true" signature="280:282" ph="id...id" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Items.js">
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <marker date="1543352631973" expanded="true" signature="212:383" ph="query...{&#10;        items {&#10;            id&#10;            title&#10;            price&#10;            description&#10;            image&#10;            largeImage&#10;        }&#10;    }" />
-            <marker date="1543352631973" expanded="true" signature="218:233" ph="ALL_ITEMS_QUERY...ALL_ITEMS_QUERY" />
-            <marker date="1543352631973" expanded="true" signature="234:383" ph="{...}" />
-            <marker date="1543352631973" expanded="true" signature="244:249" ph="items...items" />
-            <marker date="1543352631973" expanded="true" signature="244:377" ph="items...{&#10;            id&#10;            title&#10;            price&#10;            description&#10;            image&#10;            largeImage&#10;        }" />
-            <marker date="1543352631973" expanded="true" signature="250:377" ph="{...}" />
-            <marker date="1543352631973" expanded="true" signature="264:266" ph="id...id" />
-            <marker date="1543352631973" expanded="true" signature="279:284" ph="title...title" />
-            <marker date="1543352631973" expanded="true" signature="297:302" ph="price...price" />
-            <marker date="1543352631973" expanded="true" signature="315:326" ph="description...description" />
-            <marker date="1543352631973" expanded="true" signature="339:344" ph="image...image" />
-            <marker date="1543352631973" expanded="true" signature="357:367" ph="largeImage...largeImage" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finished-application/backend/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/pages/items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="34" selection-start-column="61" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stepped-solutions/24/frontend/components/Items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -877,151 +867,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/pages/item.js">
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/node_modules/react-apollo/browser.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/datamodel.prisma">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stepped-solutions/25/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="61" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/Meta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1543353535714" expanded="true" signature="622:788" ph="query...{&#10;        item(where: { id: $id }) {&#10;            id&#10;            title&#10;            description&#10;            largeImage&#10;        }&#10;    }" />
-            <marker date="1543353535714" expanded="true" signature="628:645" ph="SINGLE_ITEM_QUERY...SINGLE_ITEM_QUERY" />
-            <marker date="1543353535714" expanded="true" signature="645:655" ph="(...)" />
-            <marker date="1543353535714" expanded="true" signature="651:653" ph="ID...ID" />
-            <marker date="1543353535714" expanded="true" signature="656:788" ph="{...}" />
-            <marker date="1543353535714" expanded="true" signature="666:670" ph="item...item" />
-            <marker date="1543353535714" expanded="true" signature="666:782" ph="item...{&#10;            id&#10;            title&#10;            description&#10;            largeImage&#10;        }" />
-            <marker date="1543353535714" expanded="true" signature="670:690" ph="(...)" />
-            <marker date="1543353535714" expanded="true" signature="671:676" ph="where...where" />
-            <marker date="1543353535714" expanded="true" signature="671:689" ph="where...{ id: $id }" />
-            <marker date="1543353535714" expanded="true" signature="678:689" ph="{...}" />
-            <marker date="1543353535714" expanded="true" signature="680:682" ph="id...id" />
-            <marker date="1543353535714" expanded="true" signature="691:782" ph="{...}" />
-            <marker date="1543353535714" expanded="true" signature="705:707" ph="id...id" />
-            <marker date="1543353535714" expanded="true" signature="720:725" ph="title...title" />
-            <marker date="1543353535714" expanded="true" signature="738:749" ph="description...description" />
-            <marker date="1543353535714" expanded="true" signature="762:772" ph="largeImage...largeImage" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/mails/index_AC_465.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#1;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#td#0;n#tr#1;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#1;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#1;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#td#1;n#tr#1;n#table#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#0;n#td#0;n#tr#1;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#td#0;n#tr#1;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#1;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#0;n#tr#1;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#0;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#1;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#2;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#2;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#3;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#3;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#3;n#td#0;n#tr#1;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#3;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1543436409488" expanded="true" signature="2371:2384" ph="..." />
-            <marker date="1543436409488" expanded="true" signature="2437:2566" ph="..." />
-            <marker date="1543436409488" expanded="true" signature="2457:2554" ph="{...}" />
-            <marker date="1543436409488" expanded="true" signature="6436:6442" ph=" " />
-            <marker date="1543436409488" expanded="true" signature="24205:24211" ph=" " />
-            <marker date="1543436409488" expanded="true" signature="25015:25021" ph=" " />
-            <marker date="1543436409488" expanded="true" signature="26844:26850" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/mails/index_QRT_1278.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="169" column="219" lean-forward="false" selection-start-line="169" selection-start-column="219" selection-end-line="169" selection-end-column="219" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#2;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1543523084988" expanded="true" signature="2127:2138" ph="..." />
-            <marker date="1543523084988" expanded="true" signature="2190:2297" ph="..." />
-            <marker date="1543523084988" expanded="true" signature="2206:2287" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#915#1229#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1543782990732" expanded="true" signature="303:662" ph="mutation...{&#10;        createItem(&#10;            title: $title&#10;            description: $description&#10;            price: $price&#10;            image: $image&#10;            largeImage: $largeImage&#10;        ) {&#10;            id&#10;        }&#10;    }" />
+            <marker date="1543782990732" expanded="true" signature="312:332" ph="CREATE_ITEM_MUTATION...CREATE_ITEM_MUTATION" />
+            <marker date="1543782990732" expanded="true" signature="332:445" ph="(...)" />
+            <marker date="1543782990732" expanded="true" signature="346:352" ph="String...String" />
+            <marker date="1543782990732" expanded="true" signature="372:378" ph="String...String" />
+            <marker date="1543782990732" expanded="true" signature="392:395" ph="Int...Int" />
+            <marker date="1543782990732" expanded="true" signature="409:415" ph="String...String" />
+            <marker date="1543782990732" expanded="true" signature="433:439" ph="String...String" />
+            <marker date="1543782990732" expanded="true" signature="446:662" ph="{...}" />
+            <marker date="1543782990732" expanded="true" signature="456:466" ph="createItem...createItem" />
+            <marker date="1543782990732" expanded="true" signature="456:656" ph="createItem...{&#10;            id&#10;        }" />
+            <marker date="1543782990732" expanded="true" signature="466:629" ph="(...)" />
+            <marker date="1543782990732" expanded="true" signature="480:485" ph="title...title" />
+            <marker date="1543782990732" expanded="true" signature="506:517" ph="description...description" />
+            <marker date="1543782990732" expanded="true" signature="544:549" ph="price...price" />
+            <marker date="1543782990732" expanded="true" signature="570:575" ph="image...image" />
+            <marker date="1543782990732" expanded="true" signature="596:606" ph="largeImage...largeImage" />
+            <marker date="1543782990732" expanded="true" signature="630:656" ph="{...}" />
+            <marker date="1543782990732" expanded="true" signature="644:646" ph="id...id" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stepped-solutions/25/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sick-fits/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
           <folding />
         </state>
       </provider>

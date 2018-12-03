@@ -1,6 +1,10 @@
 # That work import in GraphGL
 # import * from './generated/prisma.graphql'
 
+type successMessage {
+    message: String
+}
+
 # Public facing API
 type Mutation {
     createItem(title: String, description: String, price: Int, image: String, largeImage: String): Item!
@@ -8,6 +12,7 @@ type Mutation {
     deleteItem(id: ID!): Item
     signup(email: String!, password: String!, name: String!): User!
     signin(email: String!, password: String!): User!
+    signout: successMessage
 }
 
 # How we can get it for Users

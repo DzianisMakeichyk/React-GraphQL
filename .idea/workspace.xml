@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168ba64c-5e33-42a0-83a3-5407bb1507a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sick-fits/backend/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/datamodel.prisma" afterPath="$PROJECT_DIR$/sick-fits/backend/datamodel.prisma" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/package-lock.json" afterPath="$PROJECT_DIR$/sick-fits/backend/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/prisma.yml" afterPath="$PROJECT_DIR$/sick-fits/backend/prisma.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" afterPath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/index.js" afterPath="$PROJECT_DIR$/sick-fits/backend/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/items.js" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/items.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -482,13 +468,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53055000" />
+    <option name="totallyTimeSpent" value="53521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21316166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21316166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="GraphQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />

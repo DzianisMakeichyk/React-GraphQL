@@ -4,28 +4,30 @@ const { randomBytes } = require('crypto');
 const { promisify } = require('util');
 const { transport, makeANiceEmail } = require('../mail');
 const { hasPermission } = require('../utils');
+const stripe = require('../stripe');
 
 const Mutations = {
     async createItem(parent, args, ctx, info) {
-        // Check if they are logged in
         if (!ctx.request.userId) {
-            throw new Error('You must be logged in to do that!')
+            throw new Error('You must be logged in to do that!');
         }
 
         const item = await ctx.db.mutation.createItem(
             {
                 data: {
+                    // This is how to create a relationship between the Item and the User
                     user: {
-                      // This is how to create a relationship between the Item and User
-                      connect: {
-                          id: ctx.request.userId
-                      }
+                        connect: {
+                            id: ctx.request.userId,
+                        },
                     },
                     ...args,
                 },
             },
             info
         );
+
+        console.log(item);
 
         return item;
     },
@@ -55,9 +57,10 @@ const Mutations = {
             ['ADMIN', 'ITEMDELETE'].includes(permission)
         );
 
-        if (!ownsItem && hasPermissions) {
-            throw new Error("You don't have permission to do that!")
+        if (!ownsItem && !hasPermissions) {
+            throw new Error("You don't have permission to do that!");
         }
+
         // 3. Delete it!
         return ctx.db.mutation.deleteItem({ where }, info);
     },
@@ -126,19 +129,19 @@ const Mutations = {
             where: { email: args.email },
             data: { resetToken, resetTokenExpiry },
         });
-
+        // 3. Email them that reset token
         const mailRes = await transport.sendMail({
-            from: 'dzianis@pencilsharpener.pl',
+            from: 'wes@wesbos.com',
             to: user.email,
-            subject: 'Your Password Reset Token is',
+            subject: 'Your Password Reset Token',
             html: makeANiceEmail(`Your Password Reset Token is here!
       \n\n
       <a href="${process.env
                 .FRONTEND_URL}/reset?resetToken=${resetToken}">Click Here to Reset</a>`),
         });
 
+        // 4. Return the message
         return { message: 'Thanks!' };
-        // 3. Email them that reset token
     },
     async resetPassword(parent, args, ctx, info) {
         // 1. check if the passwords match
@@ -178,57 +181,74 @@ const Mutations = {
         return updatedUser;
     },
     async updatePermissions(parent, args, ctx, info) {
+        // 1. Check if they are logged in
         if (!ctx.request.userId) {
-            throw new Error('You must be logger in!')
+            throw new Error('You must be logged in!');
         }
-        const currentUser = await ctx.db.query.user({
-            where: {
-                id: ctx.request.userId,
-            },
-        }, info);
-        hasPermission(currentUser, ['ADMIN', 'PERMISSIONUPDATE']);
-        return ctx.db.mutation.updateUser({
-            data: {
-                permissions: {
-                    set: args.permissions
+        // 2. Query the current user
+        const currentUser = await ctx.db.query.user(
+            {
+                where: {
+                    id: ctx.request.userId,
                 },
             },
-            where: {
-                id: args.userId
+            info
+        );
+        // 3. Check if they have permissions to do this
+        hasPermission(currentUser, ['ADMIN', 'PERMISSIONUPDATE']);
+        // 4. Update the permissions
+        return ctx.db.mutation.updateUser(
+            {
+                data: {
+                    permissions: {
+                        set: args.permissions,
+                    },
+                },
+                where: {
+                    id: args.userId,
+                },
             },
-        }, info);
+            info
+        );
     },
-
     async addToCart(parent, args, ctx, info) {
+        // 1. Make sure they are signed in
         const { userId } = ctx.request;
         if (!userId) {
             throw new Error('You must be signed in soooon');
         }
-
+        // 2. Query the users current cart
         const [existingCartItem] = await ctx.db.query.cartItems({
             where: {
                 user: { id: userId },
                 item: { id: args.id },
             },
         });
-
+        // 3. Check if that item is already in their cart and increment by 1 if it is
         if (existingCartItem) {
-           return ctx.db.mutation.updateCartItem({
-               where: { id: existingCartItem.id },
-               data: { quantity: existingCartItem.quantity + 1 },
-           }, info)
-        }
-
-        return ctx.db.mutation.createCartItem({
-            data: {
-                user: {
-                    connect: { id: userId },
+            console.log('This item is already in their cart');
+            return ctx.db.mutation.updateCartItem(
+                {
+                    where: { id: existingCartItem.id },
+                    data: { quantity: existingCartItem.quantity + 1 },
                 },
-                item: {
-                    connect: { id: args.id },
-                }
-            }
-        }, info);
+                info
+            );
+        }
+        // 4. If its not, create a fresh CartItem for that user!
+        return ctx.db.mutation.createCartItem(
+            {
+                data: {
+                    user: {
+                        connect: { id: userId },
+                    },
+                    item: {
+                        connect: { id: args.id },
+                    },
+                },
+            },
+            info
+        );
     },
     async removeFromCart(parent, args, ctx, info) {
         // 1. Find the cart item
@@ -253,6 +273,64 @@ const Mutations = {
             },
             info
         );
+    },
+    async createOrder(parent, args, ctx, info) {
+        // 1. Query the current user and make sure they are signed in
+        const { userId } = ctx.request;
+        if (!userId) throw new Error('You must be signed in to complete this order.');
+        const user = await ctx.db.query.user(
+            { where: { id: userId } },
+            `{
+      id
+      name
+      email
+      cart {
+        id
+        quantity
+        item { title price id description image largeImage }
+      }}`
+        );
+        // 2. recalculate the total for the price
+        const amount = user.cart.reduce(
+            (tally, cartItem) => tally + cartItem.item.price * cartItem.quantity,
+            0
+        );
+        console.log(`Going to charge for a total of ${amount}`);
+        // 3. Create the stripe charge (turn token into $$$)
+        const charge = await stripe.charges.create({
+            amount,
+            currency: 'USD',
+            source: args.token,
+        });
+        // 4. Convert the CartItems to OrderItems
+        const orderItems = user.cart.map(cartItem => {
+            const orderItem = {
+                ...cartItem.item,
+                quantity: cartItem.quantity,
+                user: { connect: { id: userId } },
+            };
+            delete orderItem.id;
+            return orderItem;
+        });
+
+        // 5. create the Order
+        const order = await ctx.db.mutation.createOrder({
+            data: {
+                total: charge.amount,
+                charge: charge.id,
+                items: { create: orderItems },
+                user: { connect: { id: userId } },
+            },
+        });
+        // 6. Clean up - clear the users cart, delete cartItems
+        const cartItemIds = user.cart.map(cartItem => cartItem.id);
+        await ctx.db.mutation.deleteManyCartItems({
+            where: {
+                id_in: cartItemIds,
+            },
+        });
+        // 7. Return the Order to the client
+        return order;
     },
 };
 

@@ -44,16 +44,17 @@ class CreateItem extends Component {
     const files = e.target.files;
     const data = new FormData();
     data.append('file', files[0]);
-    data.append('upload_preset', 'sickfits');
+    data.append('upload_preset', 'get_a_raise_companies_logos');
 
-    const res = await fetch('https://api.cloudinary.com/v1_1/wesbostutorial/image/upload', {
+    const res = await fetch('https://api.cloudinary.com/v1_1/de5xclelu/image/upload', {
       method: 'POST',
       body: data,
     });
     const file = await res.json();
     this.setState({
       image: file.secure_url,
-      largeImage: file.eager[0].secure_url,
+      // largeImage: file.eager[0].secure_url,
+      largeImage: file.secure_url,
     });
   };
   render() {

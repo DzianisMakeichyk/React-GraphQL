@@ -10,7 +10,7 @@ enum Permission {
 type User {
   id: ID! @unique
   name: String!
-  email: String! @unique
+  email: String! @unique         #Email(For registretion)
   password: String!
   resetToken: String
   resetTokenExpiry: Float
@@ -18,20 +18,35 @@ type User {
   cart: [CartItem!]!
 }
 
-type Item {
+type Offer {
   id: ID! @unique
-  title: String!
-  description: String!
-  image: String
-  largeImage: String
-  price: Int!
+  title: String!                 #Name
+  tags: String!                  #!!!Tags
+  skills: String!                #!!!Skills
+  description: String!           #Description
+  salary: Int!                   #Salary
+  currency: String!              #Currency
+  email: String! @unique         #Email(For application)
+  form: Boolean                  #Other form (re-direct)
+  user: User!
+}
+
+type Company {
+  id: ID! @unique
+  name: String                   #Name
+  image: String                  #Logo
+  url: String!                   #Site
+  direction: String              #Status
+  address: String                #Address
+  size: String                   #Size
+  description: String!           #Description
   user: User!
 }
 
 type CartItem {
   id: ID! @unique
   quantity: Int! @default(value: 1)
-  item: Item # relationship to Item
+  item: Offer # relationship to Item
   user: User! # relationship to User
 }
 
